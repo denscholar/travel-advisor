@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,11 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.list-item{
+  max-height: 100px;
+  overflow-y: auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {

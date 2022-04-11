@@ -1,0 +1,32 @@
+.image-container{
+    background: white;
+    width: 6rem;
+    height: 10rem;
+    min-height: 8rem;
+}
+
+
+.image-container p{
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.image-container img  {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+    object-fit: cover;
+
+}

@@ -16,7 +16,7 @@
     align-content: center;
 }
 
-.form-container .form{
+/* .form-container .input{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +26,21 @@
     width: 15rem;
     margin-left: 1.5rem;
 
+} */
+
+#outlined-password-input{
+    border: none !important;
+    outline: none !important;
+}
+.form-container .input:hover{
+    border: none;
 }
 
 .form-control, Form {
     border: none
 
+}
+
+fieldset{
+    font-size: 10px;
 }

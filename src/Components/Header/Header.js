@@ -1,7 +1,9 @@
 import React from 'react';
-import { Autocomplete } from '@react-google-maps/api';
-import { Navbar, Nav, Container, Form, FormControl } from 'react-bootstrap';
-import { SearchOutlined } from '@material-ui/icons'
+// import { Autocomplete } from '@react-google-maps/api';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+// import { SearchOutlined } from '@material-ui/icons'
+// import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 import './Header.css';
 
 const Header = () => {
@@ -18,17 +20,11 @@ const Header = () => {
                     >
                     </Nav>
                     <div className="form-container">
-                        <p className='explore'>Explore new places</p>
                         <div className="form">
-                            <SearchOutlined />
-                            <Form className="d-flex">
-                                <FormControl
-                                    type="search"
-                                    placeholder="Search"
-                                    className="me-2"
-                                    aria-label="Search"
-                                />
-                            </Form>
+                            <TextField
+                                label="Explore places"
+                                size="small"
+                            />
                         </div>
 
                     </div>

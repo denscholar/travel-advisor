@@ -1,0 +1,70 @@
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.address-rating{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: center;
+}
+
+.address-rating .address {
+    margin: 0;
+    padding: 0;
+}
+.price-container p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.checking p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.checkin-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.checking hr{
+    margin: .5rem;
+}
+
+.website-container a {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    background: #198754;
+    width: 5rem;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.website-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+
+}
+
+.website-container p{
+    padding: 0;
+    margin: 0;
+}
