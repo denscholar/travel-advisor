@@ -1,0 +1,33 @@
+.col {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.title{
+    font-size: 1.3rem;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.heading{
+    font-size: 10px;
+}
+
+select{
+    font-size: 10px;
+}
+
+select option{
+    font-size: 10px;
+}
+
+.item-container {
+    max-height: 400px;
+    overflow-Y: auto;
+    overflow-X: hidden;
+    padding: 0;
+}
