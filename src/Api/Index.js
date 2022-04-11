@@ -23,7 +23,7 @@ export const getPlacesData = async (lat, lng) => {
     },
     headers: {
       'X-RapidAPI-Host': 'booking-com.p.rapidapi.com',
-      'X-RapidAPI-Key': '6dfe4703f5msh67827776c354bc0p181f10jsn6d18879f1caf'
+      'X-RapidAPI-Key': process.env.REACT_APP_API_KEY_HOTEL,
     }
   }
 

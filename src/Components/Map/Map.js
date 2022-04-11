@@ -13,7 +13,7 @@ const Map = ({ setCoordinates, coordinates, setBounds, places }) => {
   return (
     <Container fluid style={{ height: '80vh', padding: 0 }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyB0OIvol9LYjmBBIR4bANZ4ffE8INLbxfo' }}
+        bootstrapURLKeys={{ key: process.env.REACT_APP_API_KEY_GOOGLE_MAP }}
         defaultCenter={coordinates}
         center={coordinates}
         yesIWantToUseGoogleMapApiInternals
