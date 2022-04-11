@@ -1,4 +1,4 @@
-# Pizza Shop Web Application
+# Travel Advisor
 
 ## Description
 Travel advisor is a web application inspired by the JavaScript Mastery. I built this application using Geolocation, Google Maps API & Google Places API, fetching API data based on the current location. It give users information on the hotel closest to them. However, The application is also still a work in progress because there are other functionalities I hope to integrate into the application to make it fully functional.
